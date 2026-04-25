@@ -757,7 +757,7 @@ We already have styles for the form fields, but now we also have extra text boxe
 
 21. Check your work
 
-# After saving the files, open index.html and test the following:
+### After saving the files, open index.html and test the following:
 
 the page loads normally
 the welcome message area shows a message on page load
@@ -771,7 +771,7 @@ buttons look styled
 22. Common mistakes and fixes
 Problem: JavaScript is not working
 
- # Check:
+ ### Check:
 
 did you create script.js inside the js folder?
 did you link it correctly?
@@ -783,26 +783,26 @@ did you link it correctly?
 did you place the script tag before </body>?
 Problem: Button click does nothing
 
-# Check:
+### Check:
 
 does the button have the correct ID?
 does JavaScript use exactly the same ID?
 did you save the file?
 Problem: Product count is wrong
 
-# Check:
+### Check:
 
 did you give the table this ID?
 id="productTable"
 did you remember that one row is the heading row?
 Problem: Form validation does not show
 
-# Check:
+###  Check:
 
 did you add id="contactForm" to the form?
 did you add <p id="formMessage"></p>?
 did you use event.preventDefault()?
-23. Final task for the second hour
+# 23. Final task for the second hour
 
 This final task must be done on top of the Lab 02 final task answer and the JavaScript work you completed in this lab.
 
@@ -810,7 +810,7 @@ This final task must be done on top of the Lab 02 final task answer and the Java
 
 You must extend the same website further.
 
-### Final Task – Advanced JavaScript Improvements
+# Final Task – Advanced JavaScript Improvements
 
 Add the following new features to the same website.
 
@@ -818,7 +818,7 @@ Add the following new features to the same website.
 
 Add a button near the top of the page that lets the user switch between normal mode and dark mode.
 
-# HTML to add
+### HTML to add
 
 Place this inside the header, below the paragraph:
 ```javascript
@@ -827,7 +827,7 @@ Place this inside the header, below the paragraph:
 ```
 JavaScript idea
 
-## When the button is clicked:
+### When the button is clicked:
 
 add a class called dark-mode to the body
 if already added, remove it
@@ -874,7 +874,7 @@ themeButton.onclick = function () {
 };
 
 ```
-### Task B – Add a live clock in the footer
+## Task B – Add a live clock in the footer
 
 Show the current time that updates every second.
 
@@ -894,11 +894,11 @@ updateClock();
 
 
 ```
-## Why do we use a function here?
+### Why do we use a function here?
 
 Because we want to reuse the same code every second.
 
-## Why setInterval()?
+### Why setInterval()?
 
 Because it repeats the function again and again after a fixed time.
 
