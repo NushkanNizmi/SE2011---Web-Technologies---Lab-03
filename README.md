@@ -913,10 +913,17 @@ Below the search feature, add:
 ```javascript
 <button id="showProductsBtn">Show All Product Names</button>
 <ul id="productListDisplay"></ul>
-JavaScript sample
+
+
+```
+### JavaScript sample
+
+```javascript
 let showProductsBtn = document.getElementById("showProductsBtn");
 let productListDisplay = document.getElementById("productListDisplay");
-````html
+```
+
+``` html
 showProductsBtn.onclick = function () {
     productListDisplay.innerHTML = "";
 
