@@ -866,7 +866,11 @@ CSS to add
 .dark-mode a {
     color: #8ec8ff;
 }
-JavaScript sample
+
+```
+### JavaScript sample
+
+```javascript
 let themeButton = document.getElementById("themeBtn");
 
 themeButton.onclick = function () {
