@@ -759,49 +759,49 @@ We already have styles for the form fields, but now we also have extra text boxe
 
 ### After saving the files, open index.html and test the following:
 
-the page loads normally
-the welcome message area shows a message on page load
-the welcome button changes the message
-the total product count shows correctly
-the discount button calculates a 10% discount
-the offers button displays an offer message
-the search button checks whether a product exists
-the form shows validation messages
-buttons look styled
-22. Common mistakes and fixes
-Problem: JavaScript is not working
+- the page loads normally
+- the welcome message area shows a message on page load
+- the welcome button changes the message
+- the total product count shows correctly
+- the discount button calculates a 10% discount
+- the offers button displays an offer message
+- the search button checks whether a product exists
+- the form shows validation messages
+- buttons look styled
+- 22. Common mistakes and fixes
+- Problem: JavaScript is not working
 
  ### Check:
 
-did you create script.js inside the js folder?
-did you link it correctly?
+- did you create script.js inside the js folder?
+- did you link it correctly?
 
 ```javascript
 <script src="js/script.js"></script>
 
 ```
-did you place the script tag before </body>?
-Problem: Button click does nothing
+- did you place the script tag before </body>?
+- Problem: Button click does nothing
 
 ### Check:
 
-does the button have the correct ID?
-does JavaScript use exactly the same ID?
-did you save the file?
-Problem: Product count is wrong
+- does the button have the correct ID?
+- does JavaScript use exactly the same ID?
+- did you save the file?
+- Problem: Product count is wrong
 
 ### Check:
 
-did you give the table this ID?
-id="productTable"
-did you remember that one row is the heading row?
-Problem: Form validation does not show
+- did you give the table this ID?
+- id="productTable"
+- did you remember that one row is the heading row?
+- Problem: Form validation does not show
 
 ###  Check:
 
-did you add id="contactForm" to the form?
-did you add <p id="formMessage"></p>?
-did you use event.preventDefault()?
+- did you add id="contactForm" to the form?
+- did you add <p id="formMessage"></p>?
+- did you use event.preventDefault()?
 # 23. Final task for the second hour
 
 This final task must be done on top of the Lab 02 final task answer and the JavaScript work you completed in this lab.
